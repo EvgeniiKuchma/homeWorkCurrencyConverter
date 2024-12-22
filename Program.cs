@@ -27,7 +27,6 @@ namespace homeWorkCurrencyConverter
             bool isRunnig = true;
             string userInput;
 
-
             while (isRunnig)
             {
                 Console.WriteLine("------------------------------");
