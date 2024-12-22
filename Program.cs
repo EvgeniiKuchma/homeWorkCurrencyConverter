@@ -26,7 +26,7 @@ namespace homeWorkCurrencyConverter
             int dollarsToCubles = 1;
             bool isRunnig = true;
             string userInput;
-
+             
             while (isRunnig)
             {
                 Console.WriteLine("------------------------------");
@@ -48,6 +48,7 @@ namespace homeWorkCurrencyConverter
                         Console.WriteLine("Convert rubeles to dollars");
                         Console.Write("How many rubles you want to convert to dollars: ");
                         numberСonvertibleСurrency = Convert.ToSingle(Console.ReadLine());
+
                         if (numberRubels >= numberСonvertibleСurrency && numberСonvertibleСurrency > 0)
                         {
                             numberRubels -= numberСonvertibleСurrency;
@@ -63,6 +64,7 @@ namespace homeWorkCurrencyConverter
                         Console.WriteLine("Convert rubeles to cubels");
                         Console.Write("How many rubles you want to convert to cubels: ");
                         numberСonvertibleСurrency = Convert.ToSingle(Console.ReadLine());
+
                         if (numberRubels >= numberСonvertibleСurrency && numberСonvertibleСurrency > 0)
                         {
                             numberRubels -= numberСonvertibleСurrency;
@@ -78,6 +80,7 @@ namespace homeWorkCurrencyConverter
                         Console.WriteLine("Convert cubles to dollars");
                         Console.Write("How many cubles you want to convert to dollars: ");
                         numberСonvertibleСurrency = Convert.ToSingle(Console.ReadLine());
+
                         if (numberCubles >= numberСonvertibleСurrency && numberСonvertibleСurrency > 0)
                         {
                             numberCubles -= numberСonvertibleСurrency;
@@ -93,6 +96,7 @@ namespace homeWorkCurrencyConverter
                         Console.WriteLine("Convert cubles to rubles");
                         Console.WriteLine("How many cubles you want to convert to rubles: ");
                         numberСonvertibleСurrency = Convert.ToSingle(Console.ReadLine());
+
                         if (numberCubles >= numberСonvertibleСurrency && numberСonvertibleСurrency > 0)
                         {
                             numberCubles -= numberСonvertibleСurrency;
@@ -108,6 +112,7 @@ namespace homeWorkCurrencyConverter
                         Console.WriteLine("Convert dollars to rubles");
                         Console.WriteLine("How many dollars you want to convert to rubles: ");
                         numberСonvertibleСurrency = Convert.ToSingle(Console.ReadLine());
+
                         if (numberDollars >= numberСonvertibleСurrency && numberСonvertibleСurrency > 0)
                         {
                             numberDollars -= numberСonvertibleСurrency;
@@ -123,6 +128,7 @@ namespace homeWorkCurrencyConverter
                         Console.WriteLine("Convert dollars to cubles");
                         Console.WriteLine("How many dollars you want to convert to cubles: ");
                         numberСonvertibleСurrency = Convert.ToSingle(Console.ReadLine());
+
                         if (numberDollars >= numberСonvertibleСurrency && numberСonvertibleСurrency > 0)
                         {
                             numberDollars -= numberСonvertibleСurrency;
